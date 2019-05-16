@@ -56,6 +56,20 @@ def test(sentence):
 	clear2 = stemming(clear)
 	clear2 = word_tokenize(clear2)
 
-	return clear2
+	model = load_train_data('training_result.dat')
 
-print(test('hai hai hai hai'))
+	result = [1,1,1]
+
+	for x in range(0,3):
+		for word in clear2:
+			# print(word)
+			for (key, value) in model[word].items():
+				# print(key)
+				if key == 'pab'+str(x-1):
+					# print(x-1)
+					# print(value)
+					result[x] *= value
+
+	return result.index(max(result))-1, max(result)
+
+print(test('repost from jokowi'))
