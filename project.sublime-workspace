@@ -1,0 +1,1781 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ke",
+				"keys()\tfunction ⟠"
+			],
+			[
+				"cl",
+				"close()\tfunction ⟠"
+			],
+			[
+				"pick",
+				"pickle_out\tfile | _io.TextIOWrapper ⟠"
+			],
+			[
+				"pic",
+				"pickle_out\tfile | _io.TextIOWrapper ⟠"
+			],
+			[
+				"sort",
+				"sort_index\tfunction ⟠"
+			],
+			[
+				"categorical",
+				"sparse_categorical_crossentropy"
+			],
+			[
+				"COLOR_B",
+				"COLOR_BGR2RGB\tbuiltins.int ⟠"
+			],
+			[
+				"folder",
+				"folder_img\tunion ⟠"
+			],
+			[
+				"mean",
+				"mean_squared_error\tfunction ⟠"
+			],
+			[
+				"all",
+				"all_images\tunion ⟠"
+			],
+			[
+				"conv",
+				"conv_three_layer\tfunction ⟠"
+			],
+			[
+				"cross",
+				"cross_val_score\tfunction ⟠"
+			],
+			[
+				"clas",
+				"classification_report\tfunction ⟠"
+			],
+			[
+				"test",
+				"test_images\t⟠"
+			],
+			[
+				"fliplr",
+				"fliplr(img)\tfunction ⟠"
+			],
+			[
+				"keyy",
+				"keyYtop"
+			],
+			[
+				"url",
+				"url_for\tFlask"
+			],
+			[
+				"n",
+				"nav-fixed-left"
+			],
+			[
+				"Ac",
+				"ActivityIndicator"
+			],
+			[
+				"map",
+				"mapDispatchToProps"
+			],
+			[
+				"create",
+				"createStore"
+			],
+			[
+				"Profi",
+				"ProfileScreen"
+			],
+			[
+				"pro",
+				"profile_icon"
+			],
+			[
+				"flex",
+				"flexDirection"
+			],
+			[
+				"navi",
+				"navigationOptions"
+			],
+			[
+				"Home",
+				"HomeScreen"
+			],
+			[
+				"confPw",
+				"confPwdBox"
+			],
+			[
+				"mov",
+				"movie_name"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"systr",
+				"systray"
+			],
+			[
+				"r",
+				"running"
+			],
+			[
+				"tr",
+				"try\tTry/Except/Finally"
+			],
+			[
+				"thre",
+				"threading"
+			],
+			[
+				"duratio",
+				"duration"
+			],
+			[
+				"da",
+				"dataSize"
+			],
+			[
+				"ha",
+				"hasil"
+			],
+			[
+				"haisl",
+				"hasilLen"
+			],
+			[
+				"mode",
+				"modelkuh"
+			],
+			[
+				"muffin",
+				"muffin_or_cupcake"
+			],
+			[
+				"hasil",
+				"hasilLen"
+			],
+			[
+				"hasil2",
+				"hasil2Len"
+			],
+			[
+				"ing",
+				"ingredients"
+			],
+			[
+				"target",
+				"targetNum"
+			],
+			[
+				"data",
+				"dataNum"
+			],
+			[
+				"bp",
+				"bp_send"
+			],
+			[
+				"dc",
+				"dc_off"
+			],
+			[
+				"arra",
+				"arrayX"
+			],
+			[
+				"is_",
+				"is_txt"
+			],
+			[
+				"as",
+				"astype"
+			],
+			[
+				"coba",
+				"cobaNo"
+			],
+			[
+				"txt",
+				"txtread"
+			],
+			[
+				"re",
+				"ret_val"
+			],
+			[
+				"is",
+				"is_raw"
+			],
+			[
+				"binary",
+				"binary_num"
+			],
+			[
+				"binar",
+				"binary_num"
+			],
+			[
+				"row",
+				"row_text"
+			],
+			[
+				"new",
+				"new_packet"
+			],
+			[
+				"ret",
+				"ret_var"
+			],
+			[
+				"v",
+				"ret_var"
+			],
+			[
+				"file",
+				"file_name"
+			],
+			[
+				"input",
+				"inputFile"
+			],
+			[
+				"if",
+				"if\tif"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"clip",
+				"clip-path"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"content",
+				"content-full"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"base",
+				"base_url"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"zoom",
+				"zoom-in"
+			],
+			[
+				"zoom-",
+				"zoom-out"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"cur",
+				"cur-p\tcursor: pointer;"
+			],
+			[
+				"z",
+				"zoom-in"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-st",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "test.py",
+			"settings":
+			{
+				"buffer_size": 1379,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pre.py",
+			"settings":
+			{
+				"buffer_size": 2238,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "train.py",
+			"settings":
+			{
+				"buffer_size": 2763,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 215.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reveal",
+				"File: Reveal"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"reve",
+				"File: Reveal"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"revea",
+				"File: Reveal"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"c+",
+				"Set Syntax: C++"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"pytho",
+				"Set Syntax: Python"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reacclas",
+				"Snippet: Create react-native Class"
+			],
+			[
+				"babel",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"react",
+				"Snippet: React.PropTypes."
+			],
+			[
+				"reactnative",
+				"Snippet: Create react-native Class"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"c",
+				"Set Syntax: C++"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"java\t",
+				"Snippet: java.beans."
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"p",
+				"Set Syntax: Python"
+			],
+			[
+				"matlab",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"mat",
+				"Set Syntax: MATLAB"
+			],
+			[
+				"pre",
+				"PackageResourceViewer: Extract Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
+			[
+				"cssc",
+				"Run CSScomb"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linter",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"prv",
+				"PackageResourceViewer: Open Resource"
+			]
+		],
+		"width": 653.0
+	},
+	"console":
+	{
+		"height": 198.0,
+		"history":
+		[
+			"cls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis"
+	],
+	"file_history":
+	[
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis/pre.py",
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis/proc.py",
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis/farah/Lib/site-packages/numpy/core/records.py",
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis/hasilpreproc.csv",
+		"/D/Developing/Python/BANTU/NLP/Naive Bayes Sentimen Analis/DATA TRAINING.csv",
+		"/D/Application/xampp/htdocs/vhc/application/views/adminlte/vhc2.php",
+		"/D/Application/xampp/htdocs/vhc/application/models/data2.php",
+		"/D/Application/xampp/htdocs/vhc/application/models/data.php",
+		"/D/Application/xampp/htdocs/vhc/application/controllers/VTL.php",
+		"/D/Application/xampp/htdocs/vhc/application/views/adminlte/vhc.php",
+		"/D/Application/xampp/htdocs/vhc/application/views/input_data_VT.php",
+		"/D/Application/xampp/htdocs/vhc/application/views/input_data_VTL.php",
+		"/D/Application/xampp/htdocs/vhc/application/views/edit_data_VT.php",
+		"/D/Application/xampp/htdocs/vhc/application/views/edit_data_VTL.php",
+		"/D/Application/xampp/htdocs/vhc/application/controllers/VT.php",
+		"/D/Developing/Python/NLP/Naive Bayes Sentimen Analis/hasiltokenize1.csv",
+		"/D/Developing/Python/NLP/Naive Bayes Sentimen Analis/pre.py",
+		"/D/Skripsi/2ndTry.py",
+		"/D/Application/xampp/htdocs/vhc/application/config/config.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/editDriver.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/bodyInput.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/bodyDashboard.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/tableView.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/tabel.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/dashboard/full.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/config/config.php",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/views/index.html",
+		"/D/Skripsi/training.py",
+		"/C/Users/hp/.keras/keras.json",
+		"/D/Application/xampp/htdocs/bantu/tmnGilang/tubes-dba/application/models/index.html",
+		"/D/Skripsi/dataset-preprocess/1.0/131.txt",
+		"/D/Skripsi/dataset-preprocess/1.0/131.jpg",
+		"/D/Skripsi/tf-cpu/Lib/site-packages/keras/metrics.py",
+		"/D/Skripsi/tf-cpu/Lib/site-packages/keras/optimizers.py",
+		"/D/tes.html",
+		"/D/Application/AIMP/Plugins/aimp_web_ctl/m/index.html",
+		"/D/Application/AIMP/Plugins/aimp_web_ctl/m/jquery.mobile-1.0/jquery.mobile-1.0.js",
+		"/D/Application/AIMP/Plugins/aimp_web_ctl/js/engine.js",
+		"/D/Application/AIMP/Plugins/aimp_web_ctl/js/aimp_web_ctl_api.js",
+		"/C/Users/hp/Downloads/aimp_web_ctl_v2.6.5.0/aimp_web_ctl/index.htm",
+		"/C/Users/hp/Downloads/Compressed/README.md",
+		"/D/install",
+		"/D/input.in",
+		"/D/tsubasa ozora.txt",
+		"/D/kakaroto.py",
+		"/D/Skripsi/venv/Lib/site-packages/keras/losses.py",
+		"/D/Skripsi/huehuehue.py",
+		"/D/Skripsi/chi2Distance.py",
+		"/D/Skripsi/venv/Lib/site-packages/keras/backend/tensorflow_backend.py",
+		"/D/Skripsi/Dokumen/Referensi/imagenet-classification-with-deep-convolutional-neural-networks.bib",
+		"/D/Developing/Python/Image/main-app/main.py",
+		"/D/Developing/Python/Image/UTS/view.py",
+		"/C/Users/hp/KiteOnboarding.py",
+		"/D/Developing/Python/Skripsi/training.py",
+		"/D/Developing/Python/Skripsi/huehuehue.py",
+		"/D/Developing/Python/Image/main-app/templates/video.html",
+		"/D/Developing/Python/Image/iniCeritanyaTest.py",
+		"/D/Developing/Python/Image/CornerTracking.py",
+		"/D/Developing/Python/Image/abc.py",
+		"/D/Developing/Python/Image/test.py",
+		"/D/Developing/Python/Image/coba2des.py",
+		"/D/Developing/Python/Image/kalman.py",
+		"/D/Developing/Python/Image/UAS/main.py",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/150929 - loop.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/151020 - fungsi.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/151027 - Latian UTS.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/tes.cpp",
+		"/D/Developing/Android/HDA/app/src/main/java/API/APIService.java",
+		"/C/ProgramData/Emotiv/UserData/edk_log.txt",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 2/160222 - arrayofrecord.cpp",
+		"/D/loop.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/150928 - nilai akhir.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/150928 - persamaan kuadrat(2).cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/150915 - hitung tegangan.cpp",
+		"/D/UNPAD/Kuliah/Coding/C++/Kuliah/Kelas/Semester 1/150928 - persamaan kuadrat(3).cpp",
+		"/D/Developing/Python/Image/UAS/CentroidTracker.py",
+		"/D/Developing/Python/Image/UAS/analyze.py",
+		"/D/Developing/Python/Image/UAS/tes.py",
+		"/D/Developing/Python/EEG/CyKITv2/Web/CyInterface.js",
+		"/D/Developing/Python/EEG/CyKITv2/Python/CyWebSocket.py",
+		"/D/Developing/Python/EEG/CyKITv2/Python/CyKITv2.py",
+		"/D/Developing/Python/Image/main-app/static/css/myStyle.css",
+		"/D/Developing/Python/Image/main-app/setup.py",
+		"/D/hehe/main.py",
+		"/D/hehe/merge.py",
+		"/D/3DConquest/join.py",
+		"/D/3DConquest/train.py",
+		"/D/Developing/Python/Image/main-app/templates/base.html",
+		"/D/Developing/Python/Image/main-app/modules/imghist.py",
+		"/D/Developing/Python/Image/main-app/modules/imgprocess.py",
+		"/D/Developing/Python/Image/venv/Lib/site-packages/jinja2/loaders.py",
+		"/D/Developing/Python/Image/main-app/main.spec",
+		"/D/UNPAD/Paper/Result/H=a,a L=0.5",
+		"/D/UNPAD/Paper/Result/H=a,a L=0.4",
+		"/D/UNPAD/Paper/Result/H=a,a L=0.3",
+		"/D/UNPAD/Paper/Result/H=a L=0.3",
+		"/D/UNPAD/Paper/Result/H=a,a,a,a L=0.3",
+		"/D/UNPAD/Paper/Result/H=a,a,a L=0.3",
+		"/D/UNPAD/Paper/dataset.csv.arff",
+		"/D/Latihan prediksi data-20181018/test.arff",
+		"/D/Latihan prediksi data-20181018/train.arff",
+		"/D/UNPAD/Kuliah/Kelas/Visi Komputer/TrafficRecognition-ori/MainProcessor.cs",
+		"/D/speed_feed",
+		"/D/Developing/Python/Image/main-app/modules/tracker.py",
+		"/D/Developing/Python/Image/main-app/modules/kalman_filter.py",
+		"/D/UNPAD/Kuliah/Kelas/Visi Komputer/TrafficRecognition-ori/MainForm.cs",
+		"/D/UNPAD/Kuliah/Kelas/Visi Komputer/TrafficRecognition-ori/TrafficAggregator.cs",
+		"/D/UNPAD/Kuliah/Kelas/Visi Komputer/TrafficRecognition-ori/Traffic.cs",
+		"/D/kontol.csv.arff",
+		"/D/Developing/Python/Image/main-app/templates/haha.html",
+		"/D/Developing/Python/Image/main-app/templates/video.htm.j2",
+		"/D/UNPAD/Kuliah/Kelas/Visi Komputer/movie.cfg",
+		"/D/BLE_RSSI_dataset/iBeacon_RSSI_Labeled.csv",
+		"/D/Developing/js/init/AptCare/App.js",
+		"/D/measure1_smartphone_sens.arff",
+		"/D/Developing/Python/EmoGuy/preprocessing.py",
+		"/D/Developing/Python/EmoGuy/processing.py",
+		"/C/Program Files/Weka-3-8/data/iris.arff",
+		"/D/BLE_RSSI_dataset/iBeacon_RSSI_Labeled.arff",
+		"/D/ScpServer/bin/Zadig/README",
+		"/C/Program Files/Nefarius Software Solutions/ScpToolkit/ScpControl.ini",
+		"/D/Developing/Python/EEG/hehe.py",
+		"/D/Developing/Python/Image/flask-opencv-streaming-master/app.py",
+		"/D/Developing/Python/Image/flask-opencv-streaming-master/templates/index.html",
+		"/D/Developing/Python/Image/main-app/templates/myStyle.css",
+		"/D/Developing/Python/Image/main-app/templates/header.html",
+		"/D/Developing/Python/Image/main-app/modules/imgconversion/index.py",
+		"/D/Developing/Python/Image/main-app/modules/imghist/app.py"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 177.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".add(",
+			"pba",
+			"x",
+			";1",
+			";",
+			"value",
+			"myModal",
+			"value",
+			"crud/index",
+			"this->data",
+			"data-",
+			"data",
+			"->",
+			" - ori",
+			"-threshold",
+			"32",
+			"2,2",
+			"32",
+			"ori",
+			"True",
+			"image",
+			"3, 3",
+			"train_label",
+			"True",
+			"train",
+			"128",
+			"pil_img",
+			"getpixel",
+			"] ",
+			"]",
+			"image",
+			"image[2*i,2*j]",
+			"= [",
+			"stack",
+			"==",
+			"None",
+			"load",
+			"-preprocess",
+			"[]",
+			"input",
+			"32",
+			"test, train",
+			"X, Y)",
+			"X, Y",
+			"epochs",
+			"batch_size",
+			"epoch",
+			".flatten()",
+			"test]",
+			"train]",
+			"train",
+			"dataset/",
+			"dataset",
+			"keras.losses.",
+			"keras.losses",
+			" 0",
+			" ",
+			"=input_shape",
+			"cnn3",
+			"cnn1",
+			"_data",
+			"train_images",
+			"model",
+			"ImageX",
+			"40",
+			"IMG_SIZE",
+			"test_data",
+			"IMG_SIZE",
+			"train_data",
+			"this_folder_images",
+			"train_name.index(foldername)]",
+			"Ceplok",
+			"%s",
+			"%d",
+			"train",
+			"train_path",
+			".extend",
+			"image = image.quantize(4).convert('RGB')",
+			".append",
+			"append",
+			"append(this_folder_images",
+			"all_images",
+			"train_name",
+			"train_path",
+			"image",
+			"model",
+			"Convolutional",
+			"x",
+			"category",
+			"False",
+			"while",
+			"speed",
+			"fname",
+			"100",
+			"8",
+			"3",
+			"25",
+			"i ",
+			"i",
+			"time/",
+			"objId",
+			"top",
+			"-50",
+			"+=",
+			"prevFaces",
+			"centroid",
+			"csv",
+			"i",
+			"x",
+			"faces.objects",
+			"a",
+			"i8",
+			", dtype=object",
+			"index",
+			"x,",
+			"x",
+			"x, index",
+			"data",
+			"np.array(x, index)",
+			"index, x",
+			"right",
+			"left",
+			"frame",
+			"cv",
+			"gt",
+			"?",
+			"_MEIPASS",
+			".,"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"filename",
+			"tested_negative",
+			"0",
+			"arrayN",
+			"i"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								825,
+								860
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"auto_name": "",
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										859,
+										860
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										844,
+										845
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "pre.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2238,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								288,
+								91
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "train.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2763,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2310,
+								2310
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone": -1,
+							"bracket_highlighter.clone_locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1506,
+										1507
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"region.yellowish"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1498,
+										1499
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.clone_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 118.0
+	},
+	"output.exec":
+	{
+		"height": 729.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"operator",
+				"Tugas\\PCD\\Saori - UAS\\UASPrakPCD\\UASPrakPCD\\Operator.cs"
+			],
+			[
+				"socket",
+				"socketEmoGuy.py"
+			],
+			[
+				"proce",
+				"processing.py"
+			],
+			[
+				"pre",
+				"preprocessing.py"
+			],
+			[
+				"e",
+				"example_export.py"
+			],
+			[
+				"example",
+				"example.py"
+			],
+			[
+				"ex",
+				"example_export.py"
+			],
+			[
+				"prepro",
+				"preprocessing.py"
+			],
+			[
+				"sensor",
+				"emokit\\sensors.py"
+			],
+			[
+				"write",
+				"emokit\\writer.py"
+			],
+			[
+				"decr",
+				"emokit\\decrypter.py"
+			],
+			[
+				"crypt",
+				"emokit\\decrypter.py"
+			],
+			[
+				"emoti",
+				"emokit\\emotiv.py"
+			],
+			[
+				"emotiv",
+				"emokit\\emotiv.py"
+			],
+			[
+				"user",
+				"application\\controllers\\User.php"
+			],
+			[
+				"desc",
+				"application\\views\\desc_sem.php"
+			],
+			[
+				"routes",
+				"application\\config\\routes.php"
+			],
+			[
+				"profil",
+				"application\\views\\profile.php"
+			],
+			[
+				"semodel",
+				"application\\models\\Seminar_Model.php"
+			],
+			[
+				"seminar",
+				"application\\controllers\\Seminar.php"
+			],
+			[
+				"index",
+				"application\\views\\index.php"
+			],
+			[
+				"model",
+				"application\\models\\Seminar_Model.php"
+			],
+			[
+				"profile",
+				"application\\views\\profile.php"
+			],
+			[
+				"clndr",
+				"assets\\css\\clndr-style.css"
+			],
+			[
+				"user.js",
+				"assets\\js\\user.js"
+			],
+			[
+				"header",
+				"application\\views\\header.php"
+			],
+			[
+				"pro",
+				"application\\views\\profile.php"
+			],
+			[
+				"user.",
+				"application\\controllers\\User.php"
+			],
+			[
+				"user.css",
+				"assets\\css\\user.css"
+			],
+			[
+				"log",
+				"application\\views\\log.php"
+			],
+			[
+				"create",
+				"application\\views\\create_event.php"
+			],
+			[
+				"test",
+				"application\\controllers\\TestView.php"
+			],
+			[
+				"bootstr",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"css",
+				"assets\\fullcalendar\\fullcalendar.css"
+			],
+			[
+				"calenda",
+				"application\\views\\calendar-template.html"
+			],
+			[
+				"bootstra",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"reg",
+				"application\\views\\register.php"
+			],
+			[
+				"log.",
+				"application\\views\\log.php"
+			],
+			[
+				"route",
+				"application\\config\\routes.php"
+			],
+			[
+				"viewindex",
+				"application\\views\\index.php"
+			],
+			[
+				"semmodel",
+				"application\\models\\Seminar_Model.php"
+			],
+			[
+				"testv",
+				"application\\controllers\\TestView.php"
+			],
+			[
+				"footer",
+				"application\\views\\footer.php"
+			],
+			[
+				"config",
+				"application\\config\\config.php"
+			],
+			[
+				"template",
+				"application\\views\\calendar-template.html"
+			],
+			[
+				"log.php",
+				"application\\views\\log.php"
+			],
+			[
+				"idnex",
+				"application\\views\\index.php"
+			],
+			[
+				"sem",
+				"application\\views\\desc_sem.php"
+			],
+			[
+				"boot",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"boots",
+				"assets\\css\\bootstrap.css"
+			],
+			[
+				"",
+				"assets\\css\\user.css"
+			],
+			[
+				"carou",
+				"application\\views\\carousel.php"
+			],
+			[
+				"hea",
+				"application\\views\\header.php"
+			],
+			[
+				"user.cs",
+				"assets\\css\\user.css"
+			],
+			[
+				"views/",
+				"application\\views\\log.php"
+			],
+			[
+				"regi",
+				"application\\views\\register.php"
+			],
+			[
+				"login",
+				"application\\logs\\index.html"
+			],
+			[
+				"carous",
+				"application\\views\\carousel.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
