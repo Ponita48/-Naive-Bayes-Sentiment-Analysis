@@ -30,7 +30,7 @@ def findOccurences(dataset, word):
 def findProbX(data, word):
 	occur = findOccurences(data['Text'].values, word)
 	length = findLength(data['Text'].values)
-	return (len(occur)*1.0), len(occur)
+	return (len(occur)*1.0)/length, len(occur)
 
 # p(B) <class>
 # hitung probabilitas sebuah class pada seluruh dataset (jumlah kelas/jumlah dataset)
@@ -64,8 +64,22 @@ def findProb(data, word, find):
 
 	return pba*pa/pb
 
+# gabungkan 2 dataset
+def mergeTrainData(data1, data2):
+	data2 = data2.replace({'Class':-1}, -2)
+	data2 = data2.replace({'Class':0}, -3)
+	data2 = data2.replace({'Class':1}, 2)
+
+	data = [data1, data2]
+
+	data = pd.concat(data)
+
+	return data
+
 data = pd.read_csv('hasilpreproc.csv', sep=',', header=0)
-data = data.sort_values(by=['Class'])
+data2 = pd.read_csv('hasilpreproc2.csv', sep=',', header=0)
+
+data = mergeTrainData(data, data2)
 
 # print(data.keys())
 
@@ -86,7 +100,7 @@ i = 1
 for word in bow:
 	print('learning ({}/{}) words, {:.2f}% completed\r'.format(i, len(bow), 100*(i/(len(bow)))), end="")
 	this_prob = {}
-	for x in range(-1, 2):
+	for x in range(-3, 3):
 		result = findProb(data, word, x)
 		this_prob['pab'+str(x)] = result
 	final_prob[word] = this_prob
