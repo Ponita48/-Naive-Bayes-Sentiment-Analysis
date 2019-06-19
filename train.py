@@ -13,6 +13,19 @@ def findLength(data):
 
 	return total
 
+def findLengthClass(data, find):
+	arr = np.array(data['Class'].values)
+	condition = np.isin(arr, find)
+	value = np.where(condition)
+	result = 0
+	for x in value[0]:
+		y = ast.literal_eval(data.iloc[x]['Text'])
+		y = [n.strip() for n in y]
+
+		result += len(y)
+
+	return result
+
 # cari dimana sebuah kata keluar pada dataset
 def findOccurences(dataset, word):
 	occur = []
@@ -77,11 +90,6 @@ def mergeTrainData(data1, data2):
 	return data
 
 data = pd.read_csv('hasilpreproc.csv', sep=',', header=0)
-data2 = pd.read_csv('hasilpreproc2.csv', sep=',', header=0)
-
-data = mergeTrainData(data, data2)
-
-# print(data.keys())
 
 words = data['Text'].values
 
@@ -100,7 +108,7 @@ i = 1
 for word in bow:
 	print('learning ({}/{}) words, {:.2f}% completed\r'.format(i, len(bow), 100*(i/(len(bow)))), end="")
 	this_prob = {}
-	for x in range(-3, 3):
+	for x in range(-1, 2):
 		result = findProb(data, word, x)
 		this_prob['pab'+str(x)] = result
 	final_prob[word] = this_prob
@@ -112,6 +120,46 @@ import pickle
 pickle_out = open("training_result.dat", "wb")
 pickle.dump(final_prob, pickle_out)
 pickle_out.close()
+
+data2 = pd.read_csv('hasilpreproc2.csv', sep=',', header=0)
+
+words = data['Text'].values
+
+bow = []
+for x in words:
+	x = ast.literal_eval(x)
+	x = [n.strip() for n in x]
+	for y in x:
+		# print(y not in bow)
+		if y not in bow:
+			bow.append(y)
+
+final_prob = {}
+
+i = 1
+for word in bow:
+	print('learning ({}/{}) words, {:.2f}% completed\r'.format(i, len(bow), 100*(i/(len(bow)))), end="")
+	this_prob = {}
+	for x in range(-1, 2):
+		result = findProb(data, word, x)
+		this_prob['pab'+str(x)] = result
+	final_prob[word] = this_prob
+	i+=1
+
+# Save ke pickle jadi gausah learning lagi nanti
+
+pickle_out = open("training_result2.dat", "wb")
+pickle.dump(final_prob, pickle_out)
+pickle_out.close()
+
+
+# data2 = pd.read_csv('hasilpreproc2.csv', sep=',', header=0)
+
+# data = mergeTrainData(data, data2)
+# for x in range(-3, 3):
+# 	print('len cls',x,':',findLengthClass(data, x))
+
+# print(data.keys())
 
 # print(final_prob)
 

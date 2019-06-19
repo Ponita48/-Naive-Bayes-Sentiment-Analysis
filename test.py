@@ -40,6 +40,16 @@ def load_train_data(filename):
 
 	return res
 
+def do_preproc(sentence):
+	x=clean_instagram(sentence).lower()
+	clear = stopword(x)
+	clear2 = stemming(clear)
+	clear2 = word_tokenize(clear2)
+
+	return clear2
+
+
+
 def find_train_result(filename, word):
 	result = load_train_data(filename)
 
@@ -51,21 +61,13 @@ def find_train_result(filename, word):
 	else:
 		return False
 
-def do_preproc(sentence):
-	x=clean_instagram(sentence).lower()
-	clear = stopword(x)
-	clear2 = stemming(clear)
-	clear2 = word_tokenize(clear2)
-
-	return clear2
-
-def test(sentence):
+def test(sentence, traindata):
 	clear2 = do_preproc(sentence)
-	model = load_train_data('training_result.dat')
+	model = load_train_data(traindata)
 
-	result = [1,1,1,1,1,1]
+	result = [1,1,1]
 
-	for x in range(-3,3):
+	for x in range(-1,2):
 		for word in clear2:
 			# print(word)
 			if word in model.keys():
@@ -78,7 +80,7 @@ def test(sentence):
 
 	return result.index(max(result))-1, max(result)
 
-def count_accuracy(filename):
+def count_accuracy(filename, trainname):
 	data = pd.read_csv(filename, sep=";")
 	val = data['Class'].values
 	text = data['Text'].values
@@ -87,7 +89,7 @@ def count_accuracy(filename):
 	matching = 0
 
 	for sentence in text:
-		res, _ = test(sentence)
+		res, _ = test(sentence, trainname)
 		result.append(res)
 
 	for x in range(len(val)):
@@ -96,6 +98,7 @@ def count_accuracy(filename):
 
 	return matching/len(val)
 
-print('{:2f}'.format(count_accuracy('DATA TRAINING.csv')))
+print('data1: {:2f}'.format(count_accuracy('DATA TRAINING.csv', 'training_result.dat')))
+print('data2: {:2f}'.format(count_accuracy('Data training 02.csv', 'training_result2.dat')))
 
 # print(test('Tukang Bakso juga milih Prabowo-Sandi ! #prabowo #sandiagauno #prabowosandi #2019gantipresiden #pks #pan #gerindra #partaiberkarya #partaidemokrat #2019prabowopresiden #2019presidenbaru #gantipresiden #gantipresiden2019'))
