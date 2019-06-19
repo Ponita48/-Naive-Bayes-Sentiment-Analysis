@@ -189,7 +189,3 @@ print(f'Accuracy: {acc}')
 
 
 # In[ ]:
-
-
-
-

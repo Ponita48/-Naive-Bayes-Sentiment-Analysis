@@ -43,7 +43,7 @@ def findOccurences(dataset, word):
 def findProbX(data, word):
 	occur = findOccurences(data['Text'].values, word)
 	length = findLength(data['Text'].values)
-	return (len(occur)*1.0)/(length*1.0), len(occur)
+	return (len(occur)*1.0)/length, len(occur)
 
 # p(B) <class>
 # hitung probabilitas sebuah class pada seluruh dataset (jumlah kelas/jumlah dataset)
@@ -53,7 +53,7 @@ def findProbClass(data, find):
 	final = dict(zip(unique, counts))
 	occur = final[find]
 	length = len(data['Text'].values)
-	return (occur*1.0)/(length*1.0), occur
+	return (occur*1.0)/length*1.0, occur
 
 # p(B|A)
 # hitung probabilitas kata keluar pada class tertentu (jml kata/jml kelas)
@@ -67,7 +67,7 @@ def findClass(data, word, find):
 			counter += 1
 	_, kelas = findProbClass(data, find)
 	# print(counter, kelas)
-	return (counter*1.0) / (kelas*1.0), counter
+	return (counter*1.0)/kelas*1.0, counter
 
 # mencari hasil akhir
 def findProb(data, word, find):
