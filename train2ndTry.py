@@ -85,17 +85,19 @@ class Classifier:
 
 	def countScore(self):
 		for x in self.bow:
-			self.score['1'] += float(math.log(self.posResp.getWordsCount().get(x, 1) / self.posResp.getLength()))
-			self.score['0'] += float(math.log(self.netResp.getWordsCount().get(x, 1) / self.netResp.getLength()))
-			self.score['-1'] += float(math.log(self.negResp.getWordsCount().get(x, 1) / self.negResp.getLength()))
+			self.score['1'] += float(float(math.log(self.posResp.getWordsCount().get(x, 1)) / self.posResp.getLength()))
+			self.score['0'] += float(float(math.log(self.netResp.getWordsCount().get(x, 1)) / self.netResp.getLength()))
+			self.score['-1'] += float(float(math.log(self.negResp.getWordsCount().get(x, 1)) / self.negResp.getLength()))
+			# print(self.score['1'], self.score['0'], self.score['-1'])
+			# print(self.posResp.getWordsCount().get(x,1), self.posResp.getLength(), math.log(self.posResp.getWordsCount().get(x,1)/self.posResp.getLength()))
 		
 		self.score['1'] += float(math.log(self.posResp.getLength() / self.length))
 		self.score['0'] += float(math.log(self.netResp.getLength() / self.length))
 		self.score['-1'] += float(math.log(self.negResp.getLength() / self.length))
 
-		self.score['1'] += float(math.exp(self.score['1']))
-		self.score['0'] += float(math.exp(self.score['0']))
-		self.score['-1'] += float(math.exp(self.score['-1']))
+		self.score['1'] = float(math.exp(self.score['1']))
+		self.score['0'] = float(math.exp(self.score['0']))
+		self.score['-1'] = float(math.exp(self.score['-1']))
 
 		totalScore = self.score['1'] + self.score['0'] + self.score['-1']
 
@@ -111,17 +113,17 @@ class Classifier:
 		score = {'1':0, '0':0, '-1':0}
 
 		for x in words:
-			score['1'] += float(math.log(self.posResp.getWordsCount().get(x, 1) / self.posResp.getLength()))
-			score['0'] += float(math.log(self.netResp.getWordsCount().get(x, 1) / self.netResp.getLength()))
-			score['-1'] += float(math.log(self.negResp.getWordsCount().get(x, 1) / self.negResp.getLength()))
+			score['1'] += float(float(math.log(self.posResp.getWordsCount().get(x, 1)) / self.posResp.getLength()))
+			score['0'] += float(float(math.log(self.netResp.getWordsCount().get(x, 1)) / self.netResp.getLength()))
+			score['-1'] += float(float(math.log(self.negResp.getWordsCount().get(x, 1)) / self.negResp.getLength()))
 		
-		score['1'] += float(math.log(self.posResp.getLength() / self.length))
-		score['0'] += float(math.log(self.netResp.getLength() / self.length))
-		score['-1'] += float(math.log(self.negResp.getLength() / self.length))
+		score['1'] += float(float(math.log(self.posResp.getLength()) / self.length))
+		score['0'] += float(float(math.log(self.netResp.getLength()) / self.length))
+		score['-1'] += float(float(math.log(self.negResp.getLength()) / self.length))
 
-		score['1'] += float(math.exp(score['1']))
-		score['0'] += float(math.exp(score['0']))
-		score['-1'] += float(math.exp(score['-1']))
+		score['1'] = float(math.exp(score['1']))
+		score['0'] = float(math.exp(score['0']))
+		score['-1'] = float(math.exp(score['-1']))
 
 		totalScore = score['1'] + score['0'] + score['-1']
 
